@@ -1,0 +1,575 @@
+/* #B8ECEF; -> azul
+  #333 -> header
+*/
+
+html {
+  background-color: #F8E0EC; 
+}
+
+body {
+  width: 100%;
+  margin: auto;
+  font-family: 'Exo 2', sans-serif;
+  background-color: #F8E0EC;
+  position:relative;
+}
+
+
+/**************************************************/
+/*******************Divisão Lateral****************/
+/**************************************************/
+
+.topDiv {
+  width: 35em;
+  margin: 10px 30% 0px 0px;
+  background-color: #FBEFF8 ;
+  float: right;
+  border-style:solid;
+  border-width:1px;
+  border-color:#F5A9BC;
+  padding: 0px 1% 1% 1%;
+  height: 8em;
+}
+
+.topDiv table {
+padding: 0px 1% 1% 9%;
+
+}
+
+.topDiv h3 {
+margin: 0px;
+padding:0px;
+}
+
+.topDiv h4 {
+margin: 0px;
+padding:0px;
+}
+
+.topDiv td {
+  padding:0px 2em 0px 0px;
+}
+
+.mini{
+  padding: 0px;
+  margin: 0px;
+  font: Comic, Verdana, Helvetica, sans-serif;
+  font-size: 13px;
+
+}
+
+/**************************************************/
+/*******************Register***********************/
+/**************************************************/
+
+.register{
+  margin-left: auto ;
+  margin-right: auto ;
+  margin-top: 3%;
+  width: 30%;
+  background-color: #FBEFF8;
+  padding: 1% 1% 1% 1%;
+}
+
+.register a{
+  text-decoration: none;
+  color:#58ACFA;
+}
+
+.register #content #images1
+{
+  width:20%;
+}
+.register #content #images2
+{
+  width:60%;
+}
+
+
+
+/**************************************************/
+/*******************Lateral dos Produtos***********/
+/**************************************************/
+
+.leftDiv {
+  width: 11em;
+  margin: 2% 0px 10px 20px;
+  background-color: white;
+  float: left;
+  border-style:solid;
+  border-width:1px;
+  border-color:#F5A9BC;
+  padding: 0px 0.5% 1% 0.5%;
+}
+
+/**************************************************/
+/*******************Divisão Central****************/
+/**************************************************/
+
+.cleanDiv{
+  width: 90%;
+  margin: 10px 1% 5% 5%;
+  background-color: #FBEFF8;
+  padding: 1% 1% 1% 1%;
+}
+.cleanDiv a{
+  text-decoration: none;
+  color:#58ACFA;
+}
+
+.centerDiv {
+  width: 70em;
+  margin: 10px 1% 10px 0;
+  float: right;
+  background-color: #FBEFF8;
+  padding: 1% 1% 1% 1%;
+}
+.centerDiv a{
+  text-decoration: none;
+  color:#58ACFA;
+}
+
+/**************************************************/
+/******************* Title ******************/
+/**************************************************/
+
+
+.title{
+
+  /*font: Verdana, Helvetica, sans-serif;*/
+  font-size: 14px;
+  font-weight: bold;
+
+
+
+}
+
+
+textarea  {
+width: 70em;
+height: 10em;
+}
+
+
+/**************************************************/
+/******************* Menu Header ******************/
+/**************************************************/
+
+
+header {
+  position:relative;
+  background-color: #333;
+  
+}
+
+header a {
+  text-decoration: none;
+  color: #FAAFBE;  
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3em;
+  background-color: white;
+  background-image:url('http://gnomo.fe.up.pt/~ee10030/siem/shopping/images/assets/top_background.png');
+  padding:0px;
+            }
+
+
+header nav {
+
+  padding: 10px;
+}
+
+header form {
+  display:inline; 
+  float: right;
+}
+
+header input[type=text], 
+header input[type=password] {
+  width: 80px;
+  margin-top: 6px;
+}
+
+header .username {
+  color: white;
+  position: relative;
+  top: 9px;
+}
+
+
+.user{
+  position: relative;
+
+}
+
+
+
+/**************************************************/
+/**************** Header em Branco ****************/
+/**************************************************/
+
+#products li#products-item a{
+  background-color: white; 
+  color: black;
+}
+
+#products li#products-item a:hover{
+  background: #2580a2 url('images/hover.png') bottom center no-repeat;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+#products li#products-item ul > li > a{
+  color: #cccccc;
+  background-color:  #333333;
+}
+
+#user li#user-item a{
+  background-color: white; 
+  color: black;
+}
+
+#user li#user-item a:hover{
+  background: #2580a2 url('images/hover.png') bottom center no-repeat;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+#user li#user-item ul > li > a{
+  color: #cccccc;
+  background-color:  #333333;
+}
+
+
+#messages li#messages-item a{
+  background-color: white; 
+  color: black;
+}
+#messages li#messages-item a:hover{
+  background: #2580a2 url('images/hover.png') bottom center no-repeat;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+#messages li#messages-item ul > li > a{
+  color: #cccccc;
+  background-color:  #333333;
+}
+
+#orders li#orders-item a{
+  background-color: white; 
+  color: black;
+}
+
+#orders li#orders-item a:hover{
+  background: #2580a2 url('images/hover.png') bottom center no-repeat;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+#orders li#orders-item ul > li > a{
+  color: #cccccc;
+  background-color:  #333333;
+}
+
+#home li#home-item a{
+  background-color: white; 
+  color: black;
+}
+
+#home li#home-item a:hover{
+  background: #2580a2 url('images/hover.png') bottom center no-repeat;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+#home li#home-item ul > li > a{
+  color: #cccccc;
+  background-color:  #333333;
+}
+
+
+li#car-item a{
+  background-color: white; 
+  color: black;
+}
+
+li#car-item a:hover{
+  background: #2580a2 url('images/hover.png') bottom center no-repeat;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+li#car-item ul > li > a{
+  color: #cccccc;
+  background-color:  #333333;
+}
+
+
+
+/* CONTENT */
+
+section {
+  padding: 10px 20px;
+}
+
+section h2 {
+  margin: 5px 0;
+}
+
+/* Article Product  */
+.message-data{
+  position: relative;
+  padding: 10px 0;
+  border-bottom: 1px solid #999;
+  min-height: 3em;
+  min-width: 10em;
+  margin: 0em 5em 3em 0em;
+}
+.message-data .name{
+font-weight: bold;
+}
+.message-data .price{
+  color: #666;
+}
+.message-data img{
+  width: 30px;
+  height: 40px;
+  margin-right: 10px;
+}
+.message-data a{
+  color: #369;
+  text-decoration: none;
+}
+
+
+
+
+.product-data {
+  position: relative;
+  padding: 10px 0;
+  border-bottom: 1px solid #999;
+  min-height: 10em;
+  min-width: 10em;
+  margin: 0em 5em 3em 0em;
+}
+
+.product-data-cart{
+  position: relative;
+  padding: 10px 0;
+  border-bottom: 1px solid #999;
+  min-height: 5em;
+  min-width: 5em;
+  margin: 0em 5em 3em 0em;
+}
+
+.product-data-cart img{
+  width: 96px;
+  height: 128px;
+  margin-right: 10px;
+}
+
+.product-data .name {
+  font-weight: bold;
+}
+ 
+.product-data .price {
+  color: #666;
+}
+ 
+.product-data img{
+  width: 192px;
+  height: 256px;
+  margin-right: 10px;
+}
+
+.product-data a {
+  color: #369;
+  text-decoration: none;
+}
+
+/* SHOPPING CART */
+
+#shooping-cart {
+  color: white;
+  position: center; 
+  float: right;
+}
+
+/* FORM */
+
+label {
+  display: block;  
+}
+
+/**************************************************/
+/***************** Message Boxes ******************/
+/**************************************************/
+.error, 
+.success{
+    border: 1px solid;
+    margin: 10px 0px;
+    padding:15px 10px;
+    background-repeat: no-repeat;
+    background-position: 10px center;-moz-border-radius:.5em;
+-webkit-border-radius:.5em;
+border-radius:.5em; 
+}
+.success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+}
+
+.error {
+    color: #D8000C;
+    background-color: #FFBABA;
+}
+
+.close {
+  float: right;
+  text-decoration: none;
+  color: #666;
+}
+
+.field_error {
+  color: red;
+  font-size: 70%;
+}
+
+#new_messages {
+  display: none;
+  background-color: #B8ECEF;
+  text-align: center;
+  padding: 10px;
+  color: #333;
+}
+ 
+#new_messages a{
+  color: blue;
+  text-decoration: none;
+}
+
+/**************************************************/
+/******************* Menu Footer ******************/
+/**************************************************/
+
+footer{
+  height:40px;
+  clear:both;
+  bottom:0;
+  position: fixed;
+  background-color: #333;
+  width:100%;
+  left:0;
+}
+
+footer p{
+  text-align:center;
+  margin:0;
+}
+
+footer a{
+  text-decoration:none;
+  margin:0;
+  color:white;
+}
+
+#autores{
+  color:gray;
+}
+
+
+
+
+
+/**************************************************/
+/*************** CSS Menu Header ******************/
+/**************************************************/
+
+#cssmenu {
+  border: none;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  font: 67.5% 'Lucida Sans Unicode', 'Bitstream Vera Sans', 'Trebuchet Unicode MS', 'Lucida Grande', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  width: auto;
+}
+#cssmenu ul {
+  background: #333333;
+  height: 35px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#cssmenu li {
+  float: left;
+  padding: 0px;
+}
+#cssmenu li a {
+  background: #333333 url('images/seperator.png') bottom right no-repeat;
+  display: block;
+  font-weight: normal;
+  line-height: 35px;
+  margin: 0px;
+  padding: 0px 25px;
+  text-align: center;
+  text-decoration: none;
+}
+#cssmenu > ul > li > a {
+  color: #cccccc;
+}
+#cssmenu ul ul a {
+  color: #cccccc;
+}
+#cssmenu li > a:hover,
+#cssmenu ul li:hover > a {
+  background: #2580a2 url('images/hover.png') bottom center no-repeat;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+#cssmenu li ul {
+  background: #333333;
+  display: none;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  position: absolute;
+  width: 180px;
+  z-index: 200;
+  /*top:1em;
+  /*left:0;*/
+
+}
+#cssmenu li:hover ul {
+  display: block;
+}
+#cssmenu li li {
+  background: url('images/sub_sep.png') bottom left no-repeat;
+  display: block;
+  float: none;
+  margin: 0px;
+  padding: 0px;
+  width: 180px;
+}
+#cssmenu li:hover li a {
+  background: none;
+}
+#cssmenu li ul a {
+  display: block;
+  height: 35px;
+  font-size: 12px;
+  font-style: normal;
+  margin: 0px;
+  padding: 0px 10px 0px 15px;
+  text-align: left;
+}
+#cssmenu li ul a:hover,
+#cssmenu li ul li:hover > a {
+  background: #2580a2 url('images/hover_sub.png') center left no-repeat;
+  border: 0px;
+  color: #ffffff;
+  text-decoration: none;
+}
+#cssmenu p {
+  clear: left;
+}
+
